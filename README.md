@@ -7,16 +7,14 @@
 <br/>
 
 # 🐋 learn-docker
-> Docker is a platform for building, running, and shipping applications in a consistent manner, so if your application works on your development machine, it can work and function the same way on other machines.
+> Docker is a platform for building, running, and shipping applications in a consistent manner, so if your application works on your development machine, it can work and function in the same way on other machines.
 
 >Live demo:
 [Insert link here](https://github.com/MisterValiant "title")
 
 <br/>
 
-<!-- >[![Generic badge](https://img.shields.io/badge/Project_Status:-Deployed-<COLOR>.svg)](https://github.com/MisterValiant) -->
-
->[![Generic badge](https://img.shields.io/badge/Project_Status:-In_Progress-blue.svg)](https://github.com/MisterValiant)
+>[![Generic badge](https://img.shields.io/badge/Project_Status:-Deployed-<COLOR>.svg)](https://github.com/MisterValiant)
 
 <br/>
 

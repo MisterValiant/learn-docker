@@ -14,3 +14,12 @@ CMD node app.js
 # docker build -t <name> .
 # use [docker images or docker image ls] to view all images
 # RUN: docker run <tag name>
+
+
+# Pushing to Docker HUB
+# Tag project in terminal. Example:
+# docker image tag hello-docker <hub username>/hello-docker:latest
+# THEN:
+# docker image push <hub username>/hello-docker:latest
+
+#TEST it on play with docker
