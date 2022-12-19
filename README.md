@@ -1,6 +1,6 @@
 <p align="center">
   <a target='_blank' href='https://github.com/MisterValiant'>
-    <img width=380px src="images/showcase/git-logo.webp" alt="Boilerplate logo" title='Boilerplate logo'/>
+    <img width=180px src="vertical-logo-monochromatic.webp" alt="Docker logo" title='Docker logo'/>
   </a>
 </p>
 
@@ -48,7 +48,21 @@ Moreover, if someone joins your team, they do not have to waste time setting up 
 |Container| Virtual Machine  |
 |---|---|
 | An isolated environment for running an applicaiton  | An abstraction of a machine (physical hardware)  | 
-|   |   | 
+| More lightweight | Need full-blown OS for each VM  |
+|  Need less hardware resources | Slow to start and resource intensive  |  
+
+Compared to VMs, containers can be ran on a single OS host side-by-side.
+
+<br/>
+
+### Install Docker:
+
+1. Download Docker from the main website
+2. Follow the system requirements before installation
+3. After installation, type _docker --version_ in a terminal
+4. Add docker file to application to start using Docker
+
+
 
 
 <br/>
@@ -62,16 +76,9 @@ The main aim is to learn how to use Docker to consistently build, run, and ship 
 
 <div align="left">
 
-  [![Technologies](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+  [![Technologies](https://skillicons.dev/icons?i=js,docker)](https://skillicons.dev)
 
 </div>
-
-<br/>
-
-## 📌 Features
-1. Feature 1
-2. Feature 2
-3. Feature 3
 
 <br/>
 
@@ -82,26 +89,10 @@ The main aim is to learn how to use Docker to consistently build, run, and ship 
 
 <br/>
 
-## 🗺️ Room for Improvement
-Issues:
-
-1. Issue 1
-2. Issue 2
-3. Issue 3
-
-<br/>
-
 ## 🔗 References
 This project is a tutorial from [Programming with Mosh](https://www.youtube.com/@programmingwithmosh "Programming with Mosh")
 
  - <a href='https://www.youtube.com/watch?v=pTFZFxd4hOI'>Docker Tutorial for Beginners</a>
- - 
-
-<br/>
-
-_Other references:_
-
-- Ref 1
 
 <br/>
 
