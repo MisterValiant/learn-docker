@@ -6,35 +6,55 @@
 
 <br/>
 
-# 💻 HTML5 Boilerplate
-> No need to re-construct the folder structure and index files again and again.. This HTML5 boilerplate provides a template to build any static website easily with pure HTML, CSS and JavaScript. (📝 NOTE: This README also forms part of this repos' template).
+# 🐋 learn-docker
+> Docker is a platform for building, running, and shipping applications in a consistent manner, so if your application works on your development machine, it can work and function the same way on other machines.
 
 >Live demo:
 [Insert link here](https://github.com/MisterValiant "title")
 
 <br/>
 
->[![Generic badge](https://img.shields.io/badge/Project_Status:-Deployed-<COLOR>.svg)](https://github.com/MisterValiant)
+<!-- >[![Generic badge](https://img.shields.io/badge/Project_Status:-Deployed-<COLOR>.svg)](https://github.com/MisterValiant) -->
 
 >[![Generic badge](https://img.shields.io/badge/Project_Status:-In_Progress-blue.svg)](https://github.com/MisterValiant)
-
->[![Generic badge](https://img.shields.io/badge/Project_Status:-Incomplete-red.svg)](https://github.com/MisterValiant)
 
 <br/>
 
 ## ✒️ General Information 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit nulla diam, at pulvinar lacus imperdiet sed. Nullam dignissim viverra efficitur. Nulla id lacinia risus. Nullam in venenatis nunc. Aliquam eget neque orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus gravida nibh ac porta vehicula. Fusce pretium urna ante, eget laoreet urna pellentesque vitae. Aenean egestas ipsum et sem faucibus faucibus. Morbi mauris neque, tempus ac gravida a, pellentesque ac purus. Praesent scelerisque enim nec enim luctus gravida. In congue sodales diam, dignissim ultrices sem tincidunt vel.
+If you have been developing for a while, you must have probably come across this situation where your application works on your development machine but does not work somewhere else.
+
+Some reasons may be:
+
+1. Missing files
+2. Version mismatch (e.g Node version)
+3. Different configuration settings
+
+🐋 This is where Docker comes to the rescue.
+
+
 
 <br/>
 
-**🛈 About (insert more details or info here if any):**
+**🛈 About:**
 
-Cras lorem massa, malesuada ut lectus quis, auctor aliquet dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam pharetra urna in libero interdum feugiat. Ut a nisl eu sapien auctor dapibus. Mauris fringilla in quam sed venenatis. Nunc id lorem vel magna commodo aliquam. Donec eget purus sollicitudin, ullamcorper enim et, tempor mauris. Integer neque massa, interdum vel sapien vel, condimentum suscipit mi.
+With Docker, we can easily package our application with everything it needs and run it anywhere on any machine.
+
+For example, if an application requires a particular version of Node and MongoDB, all of this will be included in the applications package.You can take this package and run it on any machine that runs Docker.
+
+Moreover, if someone joins your team, they do not have to waste time setting up a new machine to run the application. They simply have to tell Docker to bring up the application and it will automatically download and run these dependencies inside an isolated environment called a 'container' 📦. This isolated environment allows multiple applications use different vesions of some software side by side.
+
+🤔 Containers v/s Virtual Machines (VMs)
+
+|Container| Virtual Machine  |
+|---|---|
+| An isolated environment for running an applicaiton  | An abstraction of a machine (physical hardware)  | 
+|   |   | 
+
 
 <br/>
 
 ## ❤️ Motivation
-The main aim of Donec fringilla ac enim ac aliquet. Donec nec malesuada neque, non mollis augue. In elit nibh, porta fringilla tortor quis, sagittis cursus tortor. Pellentesque commodo ipsum nec turpis sollicitudin cursus. Cras cursus tellus mollis mollis sodales. Fusce eget consectetur augue, non tincidunt nulla. Proin eu molestie diam. Morbi fermentum finibus justo. Sed non rutrum sem.
+The main aim is to learn how to use Docker to consistently build, run, and ship applications.
 
 <br/>
 
@@ -55,8 +75,10 @@ The main aim of Donec fringilla ac enim ac aliquet. Donec nec malesuada neque, n
 
 <br/>
 
-## 📷 Screenshots
-![Website showcase](images/showcase/showcase.webp)
+## 📷 Tutorial
+[![Programming with Mosh](https://i.ytimg.com/vi/pTFZFxd4hOI/maxresdefault.jpg)
+](https://www.youtube.com/watch?v=_uQrJ0TkZlc)
+</div>
 
 <br/>
 
@@ -70,19 +92,16 @@ Issues:
 <br/>
 
 ## 🔗 References
-This project was inspired by [enter inspiration here](https://github.com/MisterValiant "Inspiration")
+This project is a tutorial from [Programming with Mosh](https://www.youtube.com/@programmingwithmosh "Programming with Mosh")
 
- - Reference 1
- - Reference 2
- - Reference 3
+ - <a href='https://www.youtube.com/watch?v=pTFZFxd4hOI'>Docker Tutorial for Beginners</a>
+ - 
 
 <br/>
 
 _Other references:_
 
 - Ref 1
-- Ref 2
-- Ref 3
 
 <br/>
 
